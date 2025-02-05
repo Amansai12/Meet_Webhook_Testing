@@ -6,7 +6,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-const ZOOM_SECRET_TOKEN = 'XtcLIeZtQ0aB6uwQJpvnsw';
+const ZOOM_SECRET_TOKEN = 'BcOSlx0YQKiFeMNTdtCrjw';
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
